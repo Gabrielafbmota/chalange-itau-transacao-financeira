@@ -1,0 +1,210 @@
+[
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "entities.account",
+        "description": "entities.account",
+        "isExtraImport": true,
+        "detail": "entities.account",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "entities.account",
+        "description": "entities.account",
+        "isExtraImport": true,
+        "detail": "entities.account",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "entities.account",
+        "description": "entities.account",
+        "isExtraImport": true,
+        "detail": "entities.account",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "entities.account",
+        "description": "entities.account",
+        "isExtraImport": true,
+        "detail": "entities.account",
+        "documentation": {}
+    },
+    {
+        "label": "AccountRepositoryInterface",
+        "importPath": "repositories.account_repository_interface",
+        "description": "repositories.account_repository_interface",
+        "isExtraImport": true,
+        "detail": "repositories.account_repository_interface",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "AccountRepositoryMemory",
+        "importPath": "repositories.account_repository_memory",
+        "description": "repositories.account_repository_memory",
+        "isExtraImport": true,
+        "detail": "repositories.account_repository_memory",
+        "documentation": {}
+    },
+    {
+        "label": "AccountRepositoryMemory",
+        "importPath": "repositories.account_repository_memory",
+        "description": "repositories.account_repository_memory",
+        "isExtraImport": true,
+        "detail": "repositories.account_repository_memory",
+        "documentation": {}
+    },
+    {
+        "label": "AccountRepositoryMemory",
+        "importPath": "repositories.account_repository_memory",
+        "description": "repositories.account_repository_memory",
+        "isExtraImport": true,
+        "detail": "repositories.account_repository_memory",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "TransferService",
+        "importPath": "services.transfer_service",
+        "description": "services.transfer_service",
+        "isExtraImport": true,
+        "detail": "services.transfer_service",
+        "documentation": {}
+    },
+    {
+        "label": "TransferService",
+        "importPath": "services.transfer_service",
+        "description": "services.transfer_service",
+        "isExtraImport": true,
+        "detail": "services.transfer_service",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "kind": 6,
+        "importPath": "src.entities.account",
+        "description": "src.entities.account",
+        "peekOfCode": "class Account:\n    number: int\n    balance: float = 0.0",
+        "detail": "src.entities.account",
+        "documentation": {}
+    },
+    {
+        "label": "AccountRepositoryInterface",
+        "kind": 6,
+        "importPath": "src.repositories.account_repository_interface",
+        "description": "src.repositories.account_repository_interface",
+        "peekOfCode": "class AccountRepositoryInterface(ABC):\n    @abstractmethod\n    def get_account(self, number: int) -> Optional[Account]:\n        pass\n    @abstractmethod\n    def update_account(self, account: Account) -> None:\n        pass",
+        "detail": "src.repositories.account_repository_interface",
+        "documentation": {}
+    },
+    {
+        "label": "AccountRepositoryMemory",
+        "kind": 6,
+        "importPath": "src.repositories.account_repository_memory",
+        "description": "src.repositories.account_repository_memory",
+        "peekOfCode": "class AccountRepositoryMemory(AccountRepositoryInterface):\n    def __init__(self):\n        self.accounts: Dict[int, Account] = {\n            938485762: Account(938485762, 180),\n            347586970: Account(347586970, 1200),\n            2147483649: Account(2147483649, 0),\n            675869708: Account(675869708, 4900),\n            238596054: Account(238596054, 478),\n            573659065: Account(573659065, 787),\n            210385733: Account(210385733, 10),",
+        "detail": "src.repositories.account_repository_memory",
+        "documentation": {}
+    },
+    {
+        "label": "TransferService",
+        "kind": 6,
+        "importPath": "src.services.transfer_service",
+        "description": "src.services.transfer_service",
+        "peekOfCode": "class TransferService:\n    def __init__(self, account_repository: AccountRepositoryInterface):\n        self.account_repository = account_repository\n    def transfer(\n        self,\n        correlation_id: int,\n        origin_account: int,\n        destination_account: int,\n        amount: float,\n    ) -> None:",
+        "detail": "src.services.transfer_service",
+        "documentation": {}
+    },
+    {
+        "label": "TestAccountRepositoryMemory",
+        "kind": 6,
+        "importPath": "src.tests.test_transfer_repository",
+        "description": "src.tests.test_transfer_repository",
+        "peekOfCode": "class TestAccountRepositoryMemory(unittest.TestCase):\n    def setUp(self):\n        self.repository = AccountRepositoryMemory()\n    def test_get_account(self):\n        account = self.repository.get_account(938485762)\n        self.assertIsNotNone(account)\n        self.assertEqual(account.number, 938485762)\n        self.assertEqual(account.balance, 180)\n    def test_update_account(self):\n        account = self.repository.get_account(938485762)",
+        "detail": "src.tests.test_transfer_repository",
+        "documentation": {}
+    },
+    {
+        "label": "TestTransferService",
+        "kind": 6,
+        "importPath": "src.tests.test_transfer_service",
+        "description": "src.tests.test_transfer_service",
+        "peekOfCode": "class TestTransferService(unittest.TestCase):\n    def setUp(self):\n        self.account_repository = AccountRepositoryMemory()\n        self.transfer_service = TransferService(self.account_repository)\n    @patch(\"builtins.print\")\n    def test_transfer_successful(self, mock_print):\n        origin_account = self.account_repository.get_account(938485762)\n        destination_account = self.account_repository.get_account(2147483649)\n        self.transfer_service.transfer(1, 938485762, 2147483649, 100)\n        self.assertEqual(origin_account.balance, 80)",
+        "detail": "src.tests.test_transfer_service",
+        "documentation": {}
+    },
+    {
+        "label": "TRANSACTIONS",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "TRANSACTIONS = [\n    {\n        \"correlation_id\": 1,\n        \"datetime\": \"09/09/2023 14:15:00\",\n        \"origin_account\": 938485762,\n        \"destination_account\": 2147483649,\n        \"AMOUNT\": 150,\n    },\n    {\n        \"correlation_id\": 2,",
+        "detail": "src.main",
+        "documentation": {}
+    }
+]
