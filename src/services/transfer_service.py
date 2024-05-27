@@ -15,19 +15,20 @@ class TransferService:
         origin_account = self.account_repository.get_account(origin_account)
         if not origin_account:
             print(
-                f"Transaction number {correlation_id} was canceled due to non-existent origin account"
+                f"Transaction number {correlation_id} was  due to non-existent origin account"
             )
             return
-        if origin_account.balance < amount:
+        if origin_account.balance <= amount:
+
             print(
-                f"Transaction number {correlation_id} was canceled due to insufficient funds"
+                f"Transaction number {correlation_id} was  due to insufficient funds | Origin account: {origin_account.balance} - Amount: {amount}"
             )
             return
 
         destination_account = self.account_repository.get_account(destination_account)
         if not destination_account:
             print(
-                f"Transaction number {correlation_id} was canceled due to non-existent destination account"
+                f"Transaction number {correlation_id} was  due to non-existent destination account"
             )
             return
 

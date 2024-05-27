@@ -1,0 +1,16 @@
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/obj/Debug/net5.0/TransacaoFinanceira.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/obj/Debug/net5.0/TransacaoFinanceira.AssemblyInfoInputs.cache
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/obj/Debug/net5.0/TransacaoFinanceira.AssemblyInfo.cs
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/obj/Debug/net5.0/TransacaoFinanceira.csproj.CoreCompileInputs.cache
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/obj/Debug/net5.0/TransacaoFinanceira.sourcelink.json
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/bin/Debug/net5.0/TransacaoFinanceira
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/bin/Debug/net5.0/TransacaoFinanceira.deps.json
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/bin/Debug/net5.0/TransacaoFinanceira.runtimeconfig.json
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/bin/Debug/net5.0/TransacaoFinanceira.runtimeconfig.dev.json
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/bin/Debug/net5.0/TransacaoFinanceira.dll
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/bin/Debug/net5.0/TransacaoFinanceira.pdb
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/obj/Debug/net5.0/TransacaoFinanceira.dll
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/obj/Debug/net5.0/refint/TransacaoFinanceira.dll
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/obj/Debug/net5.0/TransacaoFinanceira.pdb
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/obj/Debug/net5.0/TransacaoFinanceira.genruntimeconfig.cache
+/home/gabriela/Desktop/workspace/personal/desafios/itau/TransacaoFinanceira-main/financial-transaction/.docs/obj/Debug/net5.0/ref/TransacaoFinanceira.dll
